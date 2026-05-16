@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laxmi Kalyan Original & Reliable App</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+<style>
+/* ===== YOUR ORIGINAL CSS (UNCHANGED) ===== */
+:root {
+    --primary-white: #FFFFFF;
+    --royal-blue: #4169E1;
+    --dark-royal: #1E3A8A;
+    --accent-blue: #5A7DE2;
+    --shine-blue: #2B4FBA;
+    --pure-white: #FFFFFF;
+    --off-white: #F8FAFF;
+    --dark-text: #0A192F;
+    --light-text: #1E3A8A;
+    --gold-text: #FFD966;
+
+    --gradient-white: linear-gradient(135deg, #FFFFFF 0%, #F0F4FF 100%);
+    --gradient-blue: linear-gradient(135deg, #4169E1 0%, #1E3A8A 100%);
+
+    --border-radius: 25px;
+}
+
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+    background:var(--gradient-white);
+font-family: "Urbanist", sans-serif;
+    color:var(--dark-text);
+}
+
+.container{max-width:1200px;margin:auto;padding:20px;}
+
+header{
+    position:sticky;
+    top:0;
+    background:white;
+    border-bottom:1px solid rgba(0,0,0,0.1);
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo-image{height:80px;}
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h1{
+    font-size:32px;
+    margin-bottom:30px;
+}
+
+.hero-download-btn{
+    width: 100%;
+    padding:18px 55px;
+    border-radius:25px;
+    font-size:20px;
+    background:var(--gradient-blue);
+    font-family: "Urbanist", sans-serif;
+    color:#FFD966;
+    border:none;
+    cursor:pointer;
+    box-shadow: 2px 2px 25px 0px rgba(0,101,255,0.75);
+-webkit-box-shadow: 2px 2px 25px 0px rgba(0,101,255,0.75);
+-moz-box-shadow: 2px 2px 25px 0px rgba(0,101,255,0.75);
+}
+
+.hero-download-btn:hover{
+    transform:translateY(-3px);
+}
+
+.game-rates-section{
+    padding:60px 20px;
+}
+
+.section-title{
+    text-align:center;
+    font-size:36px;
+}
+
+.rates-table{
+    width:100%;
+    margin-top:30px;
+    border-collapse:collapse;
+    background:white;
+}
+
+.rates-table th,
+.rates-table td{
+    padding:15px;
+    border:1px solid #ddd;
+    text-align:center;
+}
+</style>
+<!-- Meta Pixel Code -->
+
+<!-- End Meta Pixel Code -->
+</head>
+
+<body>
+
+<header>
+<div class="container navbar">
+    <img src="2389315604777404100.jpeg" class="logo-image">
+</div>
+</header>
+
+<section class="hero">
+    <h1>Laxmi Kalyan - 🔥 भारत का सबसे भरोसेमंद एप्लिकेशन<br>नीचे दिये गए बटन पर क्लिक करके एप्लिकेशन को डाउनलोड करे 👇🏻</h1>
+
+    <button class="hero-download-btn" onclick="downloadAPK()">
+        Download Now <i class="fas fa-download"></i>
+    </button>
+</section>
+
+<section class="game-rates-section container">
+<h2 class="section-title">Game Rates</h2>
+
+<table class="rates-table">
+<thead>
+<tr><th>Name</th><th>Bet</th><th>Winning</th></tr>
+</thead>
+<tbody>
+<tr><td>Single Digit</td><td>1 RS</td><td>10 Rs</td></tr>
+<tr><td>Jodi Digits</td><td>1 RS</td><td>100 Rs</td></tr>
+<tr><td>Single Pana</td><td>1 RS</td><td>160 Rs</td></tr>
+<tr><td>Double Pana</td><td>1 RS</td><td>320 Rs</td></tr>
+<tr><td>Triple Pana</td><td>1 RS</td><td>900 Rs</td></tr>
+<tr><td>Half Sangam</td><td>1 RS</td><td>1000 Rs</td></tr>
+<tr><td>Full Sangam</td><td>1 RS</td><td>10000 Rs</td></tr>
+</tbody>
+</table>
+</section>
+
+<script>
+function downloadAPK(){
+    const btn = document.querySelector('.hero-download-btn');
+    btn.innerHTML = "Downloading... <i class='fas fa-spinner fa-spin'></i>";
+
+    setTimeout(()=>{
+        const link = document.createElement('a');
+        link.href = 'https://laxmikalyan.com/assets/apk/laxmikalyan.apk';
+        link.download = '';
+        link.click();
+
+        btn.innerHTML = "Download Now <i class='fas fa-download'></i>";
+    },1200);
+}
+</script>
+
+</body>
+</html>
